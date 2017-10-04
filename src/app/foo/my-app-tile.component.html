@@ -1,0 +1,20 @@
+<sky-tile>
+    <sky-tile-title>
+        Workflow performance
+    </sky-tile-title>
+
+    <sky-tile-content>
+        <div class="column center type">
+                <span class="center">
+                  <h3>Foo data</h3>
+                </span>
+        </div>
+        <div class="metrics" *ngFor="let foo of foos">
+                <span class="center">
+                  <span class="sky-emphasized metric-value">{{ foo.value }}</span>
+                  <br>
+                  <span class="label-color metric-label">{{ foo.label }}</span>
+                </span>
+        </div>
+    </sky-tile-content>
+</sky-tile>

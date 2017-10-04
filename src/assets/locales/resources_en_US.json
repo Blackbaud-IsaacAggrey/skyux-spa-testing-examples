@@ -11,6 +11,10 @@
     "message": "Home",
     "_description": "The text for the Home top-level navigation item"
   },
+  "app_nav_foo": {
+    "message": "Foo",
+    "_description": "The text for the Foo top-level navigation item"
+  },
   "home_title": {
     "message": "SKY UX Template",
     "_description": "Title for the home component"
